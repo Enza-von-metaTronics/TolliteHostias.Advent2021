@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;   
+}
+body{
+    color: antiquewhite;
+}
+.header-img{
+        height: 100vh;
+        background-image: url(img/handkrPolitron.png);
+        background-color: rgb(27, 4, 4); 
+        width: 100vw;   
+        display: flex;
+         justify-content: center;
+         align-items: center;
+}
+#logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enzaBlu{
+    position:absolute;
+    margin-top: 5rem;
+    border-radius: 50%;
+    width: 5rem;
+    border: .9rem solid rgb(34, 6, 6);
+}
+#middleBox{
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(12, 9, 39);  
+    border: 5px dotted rgba(146, 14, 14, 0.781);
+    border-radius: 25px;
+    margin-top: 7rem;
+}
+#txt{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: rgb(191, 233, 75);
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 2rem;
+}
+#iframe-box{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(191, 233, 75);
+    margin-top: 2rem;
+}
